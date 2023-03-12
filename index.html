@@ -802,14 +802,14 @@
   <script src="https://smtpjs.com/v3/smtp.js">
     function sendEmail(){
         Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "jacmwaniki@gmail.com",
-    Password : "2011373126.Ab",
-    To : 'jacmwaniki@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : document.getElementById("subject").value,
-    Body : document.getElementById("message").value
-}).then(
+   	Host : "smtp.elasticemail.com",
+        Username : "jacmwaniki@gmail.com",
+        Password : "2011373126.Ab",
+        To : 'jacmwaniki@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : document.getElementById("subject").value,
+        Body : document.getElementById("message").value
+    }).then(
   message => alert(message)
 );
     }
